@@ -12,6 +12,7 @@ const Contact = () => {
             width="100%"
             height="100%"
             src={hiBitmoji}
+            alt={"hello bitmoji"}
           />
         </div>
         <form
@@ -22,7 +23,7 @@ const Contact = () => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-                Let's Connect
+                Let&apos;s Connect
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

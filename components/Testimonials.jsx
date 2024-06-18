@@ -2,6 +2,7 @@ import React from 'react'
 import UsersIcon from './UsersIcon'
 import { testimonials } from '../data'
 import TerminalIcon from './TerminalIcon'
+import Image from 'next/image'
 
 const Testimonials = () => {
 
@@ -19,8 +20,10 @@ const Testimonials = () => {
                         <TerminalIcon className="block w-8 stroke-red-main text-gray-500 mb-4" />
                         <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                         <div className="inline-flex items-center">
-                            <img
+                            <Image
                                 alt="testimonial"
+                                width={0}
+                                height={0}
                                 src={testimonial.image}
                                 className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                             />
