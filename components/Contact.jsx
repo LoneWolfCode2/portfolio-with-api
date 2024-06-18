@@ -1,7 +1,8 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import hiBitmoji from '../assets/hi-bitmoji.webp'
+// import hiBitmoji from '../assets/hi-bitmoji.webp'
+import hiBitmoji from '../public/assets/hi-bitmoji.webp';
 const Contact = () => {
   
   return (

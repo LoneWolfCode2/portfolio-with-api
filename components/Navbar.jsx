@@ -1,15 +1,9 @@
 import React from 'react'
 import ArrowIcon from './ArrowIcon'
-import Head from 'next/head'
 import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className='md:fixed absolute top-0 left-0 right-0 p-4 bg-[#333333] font-share z-20'>
-        {/* <Head>
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
-        </Head> */}
         <div className='flex flex-col md:flex-row justify-between items-center'>
             <div className='flex gap-4'>
                 <div className='text-red-main font-extrabold cursor-pointer'>Joe Kertz</div>

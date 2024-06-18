@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
-import logo from '../assets/lwclogo.webp'
+// import logo from '../assets/lwclogo.webp'
+import logo from '../public/assets/lwclogo.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 
