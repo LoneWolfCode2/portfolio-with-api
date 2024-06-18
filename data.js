@@ -4,6 +4,7 @@ import countriesAPI from './assets/countries-API.png';
 import recipe from './assets/recipe.png';
 import ecommerce from './assets/nolongernakedlures.png';
 import blog from './assets/smart-home-blog.png';
+
 export const projects = [
     {
         link: "https://multi-step-form-eight-zeta.vercel.app/",
