@@ -1,10 +1,9 @@
-import form from './assets/multi-step-form.png';
-import newletterSignup from './assets/newsletter-signup.png';
-import countriesAPI from './assets/countries-API.png';
-import recipe from './assets/recipe.png';
-import ecommerce from './assets/nolongernakedlures.png';
-import blog from './assets/smart-home-blog.png';
-
+import form from './public/assets/multi-step-form.png';
+import newletterSignup from './public/assets/newsletter-signup.png';
+import countriesAPI from './public/assets/countries-API.png';
+import recipe from './public/assets/recipe.png';
+import ecommerce from './public/assets/nolongernakedlures.png';
+import blog from './public/assets/smart-home-blog.png';
 export const projects = [
     {
         link: "https://multi-step-form-eight-zeta.vercel.app/",
