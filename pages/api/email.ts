@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       host: 'smtp.gmail.com',
       auth:{
           user: process.env.NEXT_PUBLIC_PERSONAL_EMAIL,
-          pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
+          pass: process.env.NEXT_EMAIL_PASSWORD,
       }
     })
     try{
