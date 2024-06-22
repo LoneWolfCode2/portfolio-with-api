@@ -4,6 +4,8 @@ import countriesAPI from './public/assets/countries-API.png';
 import recipe from './public/assets/recipe.png';
 import ecommerce from './public/assets/nolongernakedlures.png';
 import blog from './public/assets/smart-home-blog.png';
+import ratingPage from './public/assets/rating-page.png';
+import productPage from './public/assets/ecommerce-product-page.png';
 export const projects = [
     {
         link: "https://multi-step-form-eight-zeta.vercel.app/",
@@ -46,6 +48,20 @@ export const projects = [
         title: "Smart Home Blog",
         subtitle: "Your Guide to the Latest in Home Automation and Technology",
         description:"Stay updated on the latest in smart home technology with product reviews, how-to guides, and tips. Perfect for tech enthusiasts and homeowners seeking to enhance their living spaces."
+    },
+        {
+        link: "https://interactive-rating-component-eight-alpha.vercel.app/",
+        image: ratingPage,
+        title: 'Interactive Rating Page',
+        subtitle: "Engage Users with Real-Time Feedback",
+        description: "Enhance your website with our interactive rating component. Easy to use and customizable, it allows visitors to rate content instantly, boosting engagement and providing valuable feedback."
+    },
+    {
+        link: "https://ecommerce-product-page-nine-rust.vercel.app/",
+        image: productPage,
+        title: 'Product Page',
+        subtitle: "Experience Ultimate Comfort and Style",
+        description: "Our latest sneakers offer a breathable mesh upper and advanced cushioning for all-day comfort. With a sleek design, they're perfect for both the gym and casual wear. Elevate your style and performance."
     }
 ];
 
