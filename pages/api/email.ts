@@ -3,6 +3,7 @@ const nodemailer = require('nodemailer');
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     const { name, email, message } = JSON.parse(req.body);
+    if(email.includes("@dominatingkeywords.com")) return;
     const transporter = nodemailer.createTransport({
       service:'Gmail',
       port: 465,
